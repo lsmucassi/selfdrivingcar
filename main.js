@@ -19,10 +19,10 @@ canvas.height = window.innerHeight;
 canvas.width = 200
 
 // get canvas 2d context
-const ctx = canvas.getContex("2d")
+const ctx = canvas.getContext("2d")
 
 // define car's dimention and position
-const car = new Car(200, 200, 30, 50)
+const car = new Car(100, 100, 30, 50)
 
 // draw car
 car.draw(ctx)
